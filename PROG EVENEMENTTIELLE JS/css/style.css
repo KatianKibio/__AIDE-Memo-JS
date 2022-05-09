@@ -1,0 +1,13 @@
+body {
+    background: rgba(224, 231, 185, 0.883);
+}
+
+input#soumettre {
+    background: rgb(142, 250, 0);
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    color:brown;
+    font-weight: bold;
+}

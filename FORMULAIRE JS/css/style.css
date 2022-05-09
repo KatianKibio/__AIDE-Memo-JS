@@ -1,0 +1,36 @@
+body {
+    background: #000;
+    color: yellowgreen;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: rgb(255, 187, 0);
+}
+
+ul li {
+    color: wheat;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+tr, th {
+    border: white solid 1px;
+    padding: 10px;
+    margin: 2px;
+    box-sizing: border-box;
+}

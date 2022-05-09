@@ -1,0 +1,29 @@
+section {
+    cursor: pointer;
+}
+
+h1 {
+    cursor: pointer;
+}
+
+fieldset {
+    background: rgb(41, 38, 38);
+}
+
+label.labelColorText {
+    color: goldenrod;
+}
+
+input.submit {
+    background: rgb(40, 143, 65);
+    padding: 10px 50px;
+    font-weight: bolder;
+    color: yellow
+}
+
+input.reset {
+    background: rgb(255, 158, 2);
+    padding: 10px 30px;
+    font-weight: bolder;
+    color: rgb(13, 27, 17)
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>attributs</title>
+    </head>
+    <body>
+        <h1 class="color" name="titre">LE DOM : ATTRIBUT</h1>
+        <hr>
+        <ul>
+            <li><a href="index.html">Les Selecteurs</a></li>
+            <li><a href="pageAttribut.html">Les Attributs</a></li>
+            <li><a href="pageModifDom.html">Modifier le Dom</a></li>
+        </ul>
+        <hr>
+
+        <h3>log(Attribute)</h3>
+        <form action="">
+            <input type="text" name="lastname" id="lastname">
+        </form>
+
+        <h3>log(Attribute.textContent)</h3>
+        <form action="">
+            <input placeholder="default-text" type="text" name="contenu de
+                l'attribut" id="text-content">
+        </form>
+
+        <h3>log(Attribute.name)</h3>
+        <h3>log(.getAttribute('***') )</h3>
+        <h3>log(.getAttributeNames())</h3>
+        <form action="">
+            <input type="password" name="pass-name" id="pass-Id">
+        </form>
+
+        <h3>log(***.innerText)</h3>
+        <ul>
+            <li class="item">item 1</li>
+            <li class="item">item 2</li>
+            <li>item 3</li>
+            <li class="item">item 4</li>
+        </ul>
+
+        <p id="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem
+            facere
+            officiis, sint consequatur dignissimos expedita ratione eius quaerat
+            corrupti asperiores aspernatur consequuntur animi soluta, obcaecati
+            nihil non suscipit ad officia.</p>
+
+        <h3>log(savoir si u n element à un attribut en general)</h3>
+        <table>
+            <tbody>
+                <th class="tableau">ZERO</th>
+                <th class="tableau">UN</th>
+                <th>DEUX</th>
+                <th class="tableau">TROIS</th>
+            </tbody>
+
+        </table>
+
+        <h2>Commment modifier les attributs</h2>
+
+        <h3>Set Attribute</h3>
+        <form action="">
+            <label for="box">Une Case cocher par js : </label>
+            <input type="checkbox" name="box" id="box">
+        </form>
+        
+        <h3>Remove Attribute</h3>
+        <form action="">
+            <label for="box2">Une Case décocher par js : </label>
+            <input type="checkbox" name="box2" id="box2" checked>
+        </form>
+
+        <script src="js/accederAuxAttribut.js"></script>
+    </body>
+</html>

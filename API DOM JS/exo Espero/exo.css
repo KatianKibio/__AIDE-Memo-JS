@@ -1,0 +1,30 @@
+body {
+  background: rgb(76, 78, 48);
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(216, 248, 36);
+  font-size: 1.5em;
+}
+#header{
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  color: rgb(255, 8, 0)
+}
+
+h2 {
+  color: salmon;
+}
+
+p {
+  text-align: justify;
+}

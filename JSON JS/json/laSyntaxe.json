@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "prenom": "John",
+    "phones": [
+        "0665898874",
+        "0788556421"
+    ],
+    "adresse": {
+        "street": "rue di paviloon",
+        "ville": "Paris",
+        "number": null,
+        "cle": "valeur"
+    }
+}

@@ -1,0 +1,19 @@
+/* Il semblerai que le script js est prioritaire sur le css */
+body {
+    background: rgb(238, 219, 219);/* violet flashy dans js*/
+}
+/* Pour tester */
+section#html article:nth-child(2){
+    background-color: rgba(22, 21, 21, 0.5);/* comme ce n'est pas défini dans js le css prends le relay*/
+    color:rebeccapurple;/*red dans js*/
+    font-size: 1.1rem;/* comme ce n'est pas défini dans js le css prends le relay*/
+    border: 0.3px solid yellow;/* comme ce n'est pas défini dans js le css prends le relay*/
+    border-radius: 25px;
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(238, 219, 219);
+    font-weight:bolder;
+}

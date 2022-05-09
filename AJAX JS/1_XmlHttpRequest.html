@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Ajax</h1>
+
+        <h2>Initialisation de la requête > la méthode <span class="unliner">.Open()</span></h2>
+        <ul>
+            <h3>Ses paramètres</h3>
+            <li>Methode Http</li>
+            <li>Adresse</li>
+            <li>Asynchrone → optionnel</li>
+            <li>Nom d'utilisateur → optionnel</li>
+            <li>Mot de passe → optionnel</li>
+        </ul>
+
+        <h3>La requête est envoyée avec la méthode <span class="unliner">.send()</span></h3>
+        <fieldset>
+            <p><span class="big">‼</span>par défaut la requête est asynchrone
+                (c-a-d que le script continue à
+                être exécuté, sans attendre la réponse qui sera retournée via un
+                callback</p>
+            <p>C'est un comportement souhaitable dans l'immense majorité des
+                cas.
+                Cependant, il est possible de forcer un comportement synchrone
+                en
+                passant par la valeur <span class="marker">false</span> au
+                paramètre
+                asynchrone dans l'appel de la méthode.</p>
+
+
+            <p>Exemple :</p>
+            <code class="code">
+                xhr.open('GET', 'http://mon-serveur/ma-ressource', false)
+            </code>
+        </fieldset>
+        <script src="js/1_XmlHttpRequest.js"></script>
+    </body>
+</html>

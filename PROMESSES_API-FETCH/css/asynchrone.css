@@ -1,0 +1,26 @@
+#app {
+    font-size: 5em;
+    color: rgb(220, 207, 20);
+    background:rgb(138, 20, 38);
+
+    border-radius: 25px;
+    padding-left: 50px;
+    width: 500px;
+    text-shadow: 
+    1px 1px 7px #000;
+}
+
+body {
+    background: rgb(10, 10, 10);
+    color: lightgoldenrodyellow;
+}
+
+#heure{
+    font-family: Helvetica, sans-serif;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+    width: 500px;
+    text-shadow: 
+    1px 1px 13px rgb(114, 240, 98);
+}
